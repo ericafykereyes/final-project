@@ -1,0 +1,92 @@
+html {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    display: block;
+}
+body {
+    margin: auto;
+}
+.navigation {
+    width:100%;
+    padding: 10px;
+    color: white;
+    background-color: teal;
+}
+.navbar {
+    float:right;
+    padding: 20px;
+}
+a {
+    padding: 10px;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: goldenrod;
+}
+
+
+
+/* CONTENT */
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.form {
+    font-family: monospace;
+    background-color: rgb(1, 81, 81);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: medium;    
+}
+legend {
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.submit {
+    margin-top: 40px;
+}
+:placeholder-shown {
+    font-style: italic;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: white;
+    margin: 50px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color:teal;
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+  
+}
+p.foot-slogan {
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}

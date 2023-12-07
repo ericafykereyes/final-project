@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cha Cafe & Bistro</title>
     <link href="css/cha-layout.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
                 <a href="index.html">Home</a>
                 <a href="about.html" >About</a>
                 <a href="contact.html">Contact</a>
-                <a href="reviews.html">Reviews</a>
+                <a href="list.html">List</a>
             </nav>
         </div>
     </header>
@@ -22,24 +23,53 @@
 
     <div class="cha-title">
         <h1>Cha Cafe & Bistro</h1>
-        <img src="image/cha-firstlook.png" alt="dining tables inside cha cafe" id="cha-firstlook">
+        <img src="image/cha-firstlook.png" alt="dining tables inside cha cafe" class="cha-firstlook">
+    </div>
+    <div class="cha-map-container">
+        <div class="cha-map-text">
+        <h3 class="map-head">Address</h3>
+            <p class="map-para"> Beach Road, Garapan </p><br>
+        <h3 class="map-head">Business Hours</h3>
+            <p class="map-para"> Mon - Sun | 7 AM - 9 PM </p><br>
+        <h3 class="map-head">Contact Number</h3>
+            <p class="map-para"><a href="tel:+1(234)5678900">+1 (670) 000 0000</a></p>
+        </div>
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15400.091034265688!2d145.7080340389399!3d15.211920865599224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x66d8b08b67cab4cb%3A0xd6ef591e0295bca0!2sCha%20Caf%C3%A9%20and%20Bistro!5e0!3m2!1sen!2s!4v1701946767389!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 
-    <div class="menu-favorites">
-        <h2>Menu Favorites</h2>
-        <ul>
-            <li>Java Chip Frappe</li>
-        </ul>
+    <section class="menu-list">
+    <div class="menu-title">
+        <h2>MENU</h2>
     </div>
-    <button id="show" class="btn">Show my location</button>
-    <script src="map.js"></script>
-        <div id="message"></div>
+    <div class="menu-items">
+        <div class="column">
+          <img src="image/two-coffees-cha.jpeg" alt="two iced coffees">
+        </div>
+        <div class="column">
+          <img src="image/smoothie-cha.jpeg" alt="smoothie and iced coffees"> 
+        </div>
+        <div class="column">
+            <img src="image/sandwich-cha.jpeg" alt="sandwich">
+        </div>
+        <div class="column">
+          <img src="image/plate-bistro-cha.jpeg" alt="lunch plate" >
+        </div>
+    </div>
+    </section>
+
 
 
     <!--START OF FOOTER -->
 
     <footer>
-        <p class="foot-slogan"><em>Discover the Island, One Sip at a Time</em></p>
+        <p class="foot-slogan"><em>Exploring Saipan one sip at a time</em></p>
+        <img src="image/logopic.jpg" alt="logo picture" style="width:100px; height:100px; padding-bottom: 30px;" ><br>
+            <a href="mailto:saipansips@saipansips.com">saipansips@saipansips.com</a>
+            <a href="tel:+1(234)5678900">+1(234)5678900</a>
+        </p><br>
+        <hr>
         <p>SAIPAN SIPS &copy; 2023 <br>
         All media rights reserved to original owners.<br>
         Website by Erica :D</p>

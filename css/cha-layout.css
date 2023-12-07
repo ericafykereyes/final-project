@@ -1,16 +1,10 @@
 html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
     background-color: burlywood;
     display: block;
 }
 body {
     margin: auto;
-}
-.cha-title > h1 {
-    font-size: 50px; 
-    padding-bottom: 10px;
-    text-align: center;
-    color: white;
 }
 .navigation {
     width:100%;
@@ -30,31 +24,84 @@ a:link, a:visited{
     text-decoration: none;
 }
 a:hover {
-    color: goldenrod
+    color: goldenrod;
 }
 
 
 
+/* CONTENT */
 
-#cha-firstlook {
-    width: 100%;
-    left: 0;
-    right: 0;
+.cha-title > h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.cha-firstlook {
     filter: contrast(1.58);
-    height: auto;
-    max-height: 100%;
-    object-fit: cover
+    display: block;
+    height: 500px;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+.cha-map-container {
+    display: grid;
+    background-color: #b78c56;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+iframe {
+    box-shadow: 0px 10px 30px rgb(97, 76, 48);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+}
+.cha-map-text {
+    padding-top: 35px;
+    padding-left: 15px;
+    margin-left: 25%;
+    color: white;
+}  
 .menu-favorites {
     color: white;
 }
+.column {
+    float: left;
+    background-color: ;
+}
+.column > img {
+    height: 200px;
+}
+.menu-items {
+    max-height: 300px;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.menu-items:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu-title {
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-bottom: 50px;
+}
+.menu-list {
+    margin: 100px 0px;
+}
 
 
 
-
-
-
-
+/* FOOTER */
 
 footer {
     background-color:teal;
@@ -68,5 +115,6 @@ footer {
 p.foot-slogan {
     padding: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 21px;
+    font-size: 15px;
+    letter-spacing: 2px;
 }

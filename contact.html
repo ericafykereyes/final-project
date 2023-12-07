@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="css/contact-layout.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <img src="image/logopic.jpg" alt="logo picture" style="width:60px; height:60px;" >
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html" >About</a>
+                <a href="contact.html">Contact</a>
+                <a href="list.html">List</a>
+            </nav>
+        </div>
+    </header>
+    <!--END OF NAV -->
+
+    <div>
+        <h1>Contact Us</h1>
+    </div>
+    <div class="form">
+        <form method="POST" action="https://jkorpela.fi/cgi-bin/echo.cgi" target="cgi-results">
+            <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <br>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" class="name-info" tabindex="1" required id="firstName" placeholder="Please type your First name" name="firstName" style="width:200px"><br>
+
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" class="name-info" tabindex="2" required id="lastName" placeholder="Please type your Last name" name="lastName" style="width:200px"><br>
+            <br>
+            <label for="dob">Date of Birth</label>
+            <br>
+            <input type="date" name="dob" tabindex="3" required id="dob" style="width:200px; text-align: center;"><br>
+            <br>
+           
+        </fieldset>
+        <fieldset>
+            <br>
+            <legend>CONTACT INFORMATION:</legend>
+            <label for="notes">Email:</label><br>
+            <input type="email" class="contact-info" tabindex="4" title="Input an email address " name="email" id="email" placeholder="example@example.com" style="width:200px"><br>
+            <br>
+            <label for="telephone">Phone:</label><br>
+            <input type="tel" class="contact-info" tabindex="4" title="Input a good mobile number" name="telephone" placeholder="6701234567" id="telephone" style="width:200px"><br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>MESSAGE</legend>
+            <label for="message">What would you like to say?</label><br>
+            <br>
+            <input type="text" name="message" tabindex="6" required id="message" style="height: 100px; width: 250px;" placeholder="Say something here.."><br>
+            <br>
+        </fieldset>
+
+        <fieldset class="submit">
+            <input type="submit" tabindex="7">
+        </fieldset>
+            </fieldset>
+    </div>
+
+    <div>
+        <h3>Thank you for stopping by!<br>
+        We are working on better serving you!</h3>
+    </div>
+
+
+
+    <!--START OF FOOTER -->
+
+    <footer>
+        <p class="foot-slogan"><em>Exploring Saipan one sip at a time</em></p>
+        <img src="image/logopic.jpg" alt="logo picture" style="width:100px; height:100px; padding-bottom: 30px;" ><br>
+            <a href="mailto:saipansips@saipansips.com">saipansips@saipansips.com</a>
+            <a href="tel:+1(234)5678900">+1(234)5678900</a>
+        </p><br>
+        <hr>
+        <p>SAIPAN SIPS &copy; 2023 <br>
+        All media rights reserved to original owners.<br>
+        Website by Erica :D</p>
+    </footer>
+</body>

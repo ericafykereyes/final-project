@@ -1,0 +1,5 @@
+@keyframes coffeebeanheart {
+    from {transform: translateX(100%); }
+    50%  {transform: translateX(50%); }
+    to {transform: translateX(-100%); }
+  }
