@@ -1,0 +1,72 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+    display: block;
+}
+body {
+    margin: auto;
+}
+.cha-title > h1 {
+    font-size: 50px; 
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.navigation {
+    width:100%;
+    padding: 10px;
+    color: white;
+    background-color: teal;
+}
+.navbar {
+    float:right;
+    padding: 20px;
+}
+a {
+    padding: 10px;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: goldenrod
+}
+
+
+
+
+#cha-firstlook {
+    width: 100%;
+    left: 0;
+    right: 0;
+    filter: contrast(1.58);
+    height: auto;
+    max-height: 100%;
+    object-fit: cover
+}
+.menu-favorites {
+    color: white;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color:teal;
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+  
+}
+p.foot-slogan {
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+}
